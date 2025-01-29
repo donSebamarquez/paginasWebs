@@ -1,0 +1,219 @@
+@import url('big.css');
+@import url('medium.css');
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  
+  *{
+    margin: 0;
+  }
+  :root{
+    --green:#00ad6a;
+    --lightgreen:#1fe374;
+    --gray:#d6dae5;
+    --lightgray:#eafaf1;
+    --black:#080c16;
+    --white:#fcfcfc;
+  }
+  body {
+    
+    line-height: 1.5;
+    
+    -webkit-font-smoothing: antialiased;
+
+    font-family: 'Work Sans';
+
+}
+  
+  
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  
+  
+  input, button, textarea, select {
+    font: inherit;
+  }
+  
+  
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  
+  
+  p {
+    text-wrap: pretty;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+  }
+  
+  #root, #__next {
+    isolation: isolate;
+  }
+
+
+
+
+/*--------°°°°°°°°°--------------*/
+            /*HEADER*/
+/*--------°°°°°°°°°--------------*/
+
+
+
+
+
+    .card__header{
+        background-color: var(--white);
+    }
+
+        .header__navbar{
+            display: flex;
+            flex-direction: row;
+        }
+            .navbar__links{
+                display: flex;
+                flex-direction: column;
+            }
+
+
+
+
+
+/*--------°°°°°°°°°--------------*/
+            /*MAIN*/
+/*--------°°°°°°°°°--------------*/
+    .card__main{        
+        display: flex;
+        flex-direction: column;
+    }
+
+        .main__hero{
+            background-color: #eafaf1;
+            padding: 1.2em;
+        }
+
+            .hero__title{
+                font-size: 3rem;
+                font-weight: 700;
+                line-height: 1;
+            }
+
+            .hero__text{
+                font-size: 1.250rem;
+            }
+
+
+        .main__suscriptions{
+            display: flex;
+            flex-direction: column;
+            background-color: #eafaf1;
+        }
+        
+            .main__offers{
+                display: grid;
+                grid-template-columns: 1fr;
+            }
+
+                .main__offer{
+                    width: 90%;
+                    display: flex;
+                    flex-direction: column;
+                    margin: 0 auto;
+                }
+
+            .offer__item--tick{
+                color: rgb(94, 89, 89);
+                width: 90%;
+                font-size: 1.1rem;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                text-align: start;
+                list-style: none;
+                margin: 0.5em 0;
+                line-height: 1;
+            }
+
+            .offer__item--tick::before{
+                content: "✓";
+                color: #00ad6a;
+                padding: 0 0.09em;
+            }
+
+        .main__testimonial{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding: 2em 0;
+        }
+
+            .testimonial__image{
+
+            }
+        
+            .testimonial__title{
+                width: 90%;
+                font-weight: 300;
+                margin: 0.4em auto 1em;
+                text-align:center;
+            }
+        
+            .testimonial__text{
+                font-size: 0.8rem;
+                font-weight: 700;
+                color: var(--green);
+                text-transform: uppercase;
+            }
+
+        .main__information{
+            width: 90%;
+            background-color: #fcfcfc;
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+        }
+            .information__top{
+                font-size: 1.6rem;
+                margin: 1.5em 0;
+            }
+
+                .information__title{
+
+                }
+            
+            .information__grid{
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 2em;
+            }    
+
+                .grid__item{
+                    line-height: 1;
+                }
+
+                    .grid__title{
+                        width: 100%;
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: nowrap;
+                        color: #080c16;
+                        font-size: 1.5rem;
+                        font-weight: 900;
+                        margin: 0.2em 0;
+                    }
+                
+                    .grid__text{
+                        font-size: 1.250rem;
+                        color: rgb(94, 89, 89);
+                        line-height: 1.5;
+
+                    }
+
+
+        
+/*--------°°°°°°°°°--------------*/
+            /*FOOTER*/
+/*--------°°°°°°°°°--------------*/
