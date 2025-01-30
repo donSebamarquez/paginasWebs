@@ -44,13 +44,14 @@
                     font-size: 2.5rem;
                     font-weight: 900;
                     line-height: 1;
+                    margin: 0.4em 0 0 0;
                 }
 
                 .info__price{
                     text-align: start;
                     font-size: 1.4rem;
                     color: rgb(85, 81, 81);
-                    margin: 0 0 1em 0;
+                    margin: 0 0 2em 0;
                 }
                 
             .offer__text{
@@ -72,7 +73,7 @@
             
             .offer__signup{
                 width: 98%;
-                color: rgb(85, 81, 81);
+                color: #080c16;
                 font-size: 1.2rem;
                 font-weight: 900;
                 background-color: #1fe374;
