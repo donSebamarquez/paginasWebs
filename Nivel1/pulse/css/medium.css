@@ -1,6 +1,7 @@
 .main__offer--medium{
     width: 90%;
     margin: 0 auto;
+    
 }
     .offer__btn--medium{
         width: 100%;
@@ -12,6 +13,7 @@
         margin: 2em 0;
         padding: 0;
         cursor: pointer;
+        transition: transform 0.3s ease-in-out;
     }
     
         .offer__top--medium{
@@ -85,4 +87,7 @@
                 background-color: #1fe374;
                 margin: 1em auto 0.6em;
                 padding: 0.3em 0;
+            }
+            .main__offer--medium:hover .offer__signup--medium{
+                transform: scale(1.1); 
             }

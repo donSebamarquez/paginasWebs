@@ -2,6 +2,7 @@
     width: 90%;
     margin: 0 auto;
 }
+
     .offer__btn--big{
         width: 100%;
         display: flex;
@@ -12,6 +13,7 @@
         border-radius: 0.5em;
         padding: 0;
         cursor: pointer;
+        transition: transform 0.3s ease-in-out;
     }
         
         .offer__top{
@@ -79,4 +81,7 @@
                 background-color: #1fe374;
                 margin: 1em auto;
                 padding: 0.5em;
+            }
+            .main__offer--big:hover .offer__signup {
+                transform: scale(1.1); 
             }
